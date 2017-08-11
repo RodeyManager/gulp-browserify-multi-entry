@@ -1,7 +1,7 @@
 {
   "name": "gulp-browserify-multi-entry",
-  "version": "1.0.0",
-  "description": "(基于gulp的前端构建工具)Based on the front-end build tools of gulp",
+  "version": "1.0.1",
+  "description": "基于gulp的browserify多入口文件",
   "keyword": "javascript, nodejs, gulp, browserify",
   "author": {
     "name": "Rodey Luo",
