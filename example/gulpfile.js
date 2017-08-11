@@ -5,7 +5,7 @@ const
     gulpBrowserify = require('../index');
 
 const
-    uglifyify = require('uglifyify');
+    babelify = require('babelify');
 
 
 gulp.task('default', () => {
@@ -14,21 +14,7 @@ gulp.task('default', () => {
         .pipe(gulpBrowserify({
             debug: false,
             transform: [
-                [ uglifyify, { global: true, sourceMap: false } ]
-            ]
-        }))
-        .pipe(gulp.dest('./build/bt'));
-});
-
-gulp.task('default', () => {
-
-    gulp.src('./src/bt/**/*View.js')
-        .pipe(gulpBrowserify({
-            debug: false,
-            // 排除
-            external: [],
-            transform: [
-                [ uglifyify, { global: true, sourceMap: false } ]
+                [ babelify, { presets: [ 'es2015', 'es2016', 'stage-2'], compact: true } ]
             ]
         }))
         .pipe(gulp.dest('./build/bt'));
