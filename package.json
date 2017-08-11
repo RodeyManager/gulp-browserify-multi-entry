@@ -1,0 +1,37 @@
+{
+  "name": "gulp-browserify-multi-entry",
+  "version": "1.0.0",
+  "description": "(基于gulp的前端构建工具)Based on the front-end build tools of gulp",
+  "keyword": "javascript, nodejs, gulp, browserify",
+  "author": {
+    "name": "Rodey Luo",
+    "email": "rodeyluo@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodeyManager/gulp-browserify-multi-entry.git"
+  },
+  "homepage": "https://github.com/RodeyManager/gulp-browserify-multi-entry.git#readme",
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "dependencies": {
+    "browserify": "^14.4.0",
+    "gulp-util": "^3.0.8",
+    "through2": "^2.0.3"
+  },
+  "engines": {
+    "nodejs": "4.4.2+",
+    "npm": "4.2.0+"
+  },
+  "_npmUser": {
+    "name": "rodey",
+    "email": "rodeyluo@gmail.com"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "uglifyify": "^4.0.3"
+  }
+}
