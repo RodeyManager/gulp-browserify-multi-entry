@@ -5,7 +5,6 @@
 
 const
     through2    = require('through2'),
-    browserify   = require('browserify'),
     PluginError = require('gulp-util').PluginError;
 
 const PLUGIN_NAME = 'gulp-browserify-multi-entry';
@@ -13,6 +12,7 @@ const PLUGIN_NAME = 'gulp-browserify-multi-entry';
 function gulpBrowserifyMulitEntry(options){
 
     options = options || {};
+    const browserify   = options['browserify'] || require('browserify');
 
     return through2.obj(function(file, enc, next){
 
