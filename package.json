@@ -1,6 +1,6 @@
 {
   "name": "gulp-browserify-multi-entry",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "基于gulp的browserify多入口文件",
   "keyword": "javascript, nodejs, gulp, browserify",
   "author": {
