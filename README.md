@@ -8,7 +8,7 @@ see <a href="https://github.com/substack/node-browserify#usage">Browserify optio
 
     const
         gulp = require('gulp'),
-        gulpBrowserify = require('gulp-browserify-mulit-entry'),
+        gulpBrowserify = require('gulp-browserify-multi-entry'),
         vueify = require('vueify'),
         babelify = require('babelify');
 
